@@ -98,7 +98,6 @@ header#sidebar h1#title {
 }
 
 #octopress_linkback {
-  position: fixed;
   left: 30px;
   bottom: 30px;
   font-size: 15px;
@@ -120,6 +119,7 @@ header#sidebar h1#title {
   min-width: 658px;
   position: relative;
   z-index: 9999;
+  margin-right: 5%;
 }
 
 header#sidebar h1#title a {
@@ -191,10 +191,6 @@ header#sidebar h2#subtitle {
     position: absolute;
   }
 
-  #octopress_linkback {
-    top: 700px;
-    position: absolute;
-  }
 }
 
 // Medium-width screen
@@ -300,6 +296,7 @@ section.comments {
   position: relative;
   padding-left: 50px;
   overflow-x: hidden;
+  padding-right: 5px;
 }
 
 article.post h2, article.post p {
